@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+<link media="all" href="/static/css/smoothness/jquery-ui.css" type="text/css" rel="stylesheet"><link media="all" href="/assets/generated/beaker-80f92d76.css" type="text/css" rel="stylesheet"><link media="all" href="/tg_widgets/turbogears.widgets/grid.css" type="text/css" rel="stylesheet">
+    <script src="/tg_widgets/tgmochikit/unpacked/MochiKit.js" type="text/javascript"></script><script src="/static/javascript/jquery-2.0.2.min.js" type="text/javascript"></script><script src="/static/javascript/jquery-ui-1.9.2.min.js" type="text/javascript"></script><script src="/assets/generated/beaker-d43ced3a.js" type="text/javascript"></script><script src="/static/javascript/search_object.js" type="text/javascript"></script><script src="/static/javascript/searchbar_v9.js" type="text/javascript"></script><script src="/static/javascript/util.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    window.beaker_url_prefix = "/";
+    </script>
+    <title>Systems</title>
+<link href="?tg_format=atom&amp;list_tgp_order=-date_modified&amp;" rel="feed" title="Atom feed">
+</head>
+<body>
+<nav class="navbar navbar-static-top">
+    <div class="navbar-inner">
+        <a href="/" class="brand">Beaker</a>
+        <ul class="nav">
+            <li class="dropdown">
+                <a data-toggle="dropdown" href="#" class="dropdown-toggle">
+                    Systems
+                    <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="/">All</a></li>
+                    <li><a href="/available/">Available</a></li>
+                    <li><a href="/free/">Free</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a data-toggle="dropdown" href="#" class="dropdown-toggle">
+                    Devices
+                    <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="/devices">All</a></li>
+                    <li>
+                        <a href="/devices/None">None</a>
+                    </li><li>
+                        <a href="/devices/NETWORK">NETWORK</a>
+                    </li><li>
+                        <a href="/devices/OTHER">OTHER</a>
+                    </li><li>
+                        <a href="/devices/MOUSE">MOUSE</a>
+                    </li><li>
+                        <a href="/devices/IDE">IDE</a>
+                    </li><li>
+                        <a href="/devices/KEYBOARD">KEYBOARD</a>
+                    </li><li>
+                        <a href="/devices/USB">USB</a>
+                    </li><li>
+                        <a href="/devices/VIDEO">VIDEO</a>
+                    </li><li>
+                        <a href="/devices/RAID">RAID</a>
+                    </li><li>
+                        <a href="/devices/SCSI">SCSI</a>
+                    </li><li>
+                        <a href="/devices/FIREWIRE">FIREWIRE</a>
+                    </li><li>
+                        <a href="/devices/AUDIO">AUDIO</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a data-toggle="dropdown" href="#" class="dropdown-toggle">
+                    Distros
+                    <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="/distros">All</a></li>
+                    <li><a href="/distrotrees/">Trees</a></li>
+                    <li><a href="/distrofamily">Family</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a data-toggle="dropdown" href="#" class="dropdown-toggle">
+                    Scheduler
+                    <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="/jobs/new">New Job</a></li>
+                    <li><a href="/jobs">Jobs</a></li>
+                    <li><a href="/recipes">Recipes</a></li>
+                    <li><a href="/tasks/new">New Task</a></li>
+                    <li><a href="/tasks">Task Library</a></li>
+                    <li><a href="/watchdogs">Watchdog</a></li>
+                    <li><a href="/reserveworkflow">Reserve</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a data-toggle="dropdown" href="#" class="dropdown-toggle">
+                    Reports
+                    <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="/reports">Reserve</a></li>
+                    <li><a href="/matrix">Matrix</a></li>
+                    <li><a href="/csv">CSV</a></li>
+                    <li><a href="/tasks/executed">Executed</a></li>
+                    <li><a href="/reports/external">External</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a data-toggle="dropdown" href="#" class="dropdown-toggle">
+                    Activity
+                    <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="/activity/">All</a></li>
+                    <li><a href="/activity/system">Systems</a></li>
+                    <li><a href="/activity/labcontroller">Lab Controllers</a></li>
+                    <li><a href="/activity/group">Groups</a></li>
+                    <li><a href="/activity/distro">Distros</a></li>
+                    <li><a href="/activity/distrotree">Distro Trees</a></li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="nav pull-right">
+            <li class="dropdown">
+                <a data-toggle="dropdown" href="#" class="dropdown-toggle">
+                    Hello<span class="navbar-wide-viewport-only">, tfeng</span>
+                    <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="/prefs">Preferences</a></li>
+                    <li><a href="/groups">Groups</a></li>
+                    <li><a href="/mine">My Systems</a></li>
+                    <li><a href="/jobs/mine">My Jobs</a></li>
+                    <li><a href="/jobs/mygroups">My Group Jobs</a></li>
+                    <li><a href="/recipes/mine">My Recipes</a></li>
+                    <li><a href="/groups/mine">My Groups</a></li>
+                </ul>
+            </li>
+            <li class="navbar-wide-viewport-only">
+              <a href="/jobs/mine">My Jobs</a>
+            </li>
+            <li><a href="/logout">Log out</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="container-fluid">
+<div class="page-header">
+  <h1>Systems</h1>
+</div>
+<span><div>
+<form method="GET" style="display:True" name="systemsearch_simple" action="" class="form-search" id="simpleform">
+<div><a href="#" id="showadvancedsearch">Show Search Options</a></div>
+<input type="text" name="simplesearch" class="search-query">
+<button type="submit" class="btn">Search</button>
+</form>
+<form action="" method="GET" style="display:none" id="searchform" name="systemsearch">
+<a href="#" id="hideadvancedsearch">Hide Search Options</a>
+    <table>
+    <tr>
+    <td>
+    <table id="systemsearch">
+    <thead>
+    <tr> 
+      <th>Table</th><th>Keyvalue</th><th>Operation</th><th>Value</th>
+    </tr>
+    </thead> 
+    <tbody>
+    <tr class="searchbar" id="systemsearch_0">
+    <script type="text/JavaScript" language="JavaScript">
+
+        systemsearch_0 = new SearchBar(
+                [{"column": null, "field_id": "systemsearch_0_table", "name": "table"}, {"column": "key/value", "field_id": "systemsearch_0_keyvalue", "name": "keyvalue"}, {"column": null, "field_id": "systemsearch_0_operation", "name": "operation"}, {"field_id": "systemsearch_0_value"}], '/get_search_options',
+                '', {'keyvalue': '/get_operators_keyvalue'},
+                {'key/value': '/get_keyvalue_search_options'},
+                '', '',
+                {"CPU/Flags": {"search_vals": null, "search_by": ["contains", "is", "is not"]}, "System/Location": {"search_vals": null, "search_by": ["contains", "is", "is not"]}, "CPU/Vendor": {"search_vals": null, "search_by": ["contains", "is", "is not"]}, "CPU/Sockets": {"search_vals": null, "search_by": ["greater than", "is", "is not", "less than"]}, "Devices/Device_id": {"search_vals": null, "search_by": ["contains", "is", "is not"]}, "CPU/Speed": {"search_vals": null, "search_by": ["greater than", "is", "is not", "less than"]}, "CPU/Stepping": {"search_vals": null, "search_by": ["greater than", "is", "is not", "less than"]}, "Devices/Driver": {"search_vals": null, "search_by": ["contains", "is", "is not"]}, "Devices/Subsys_vendor_id": {"search_vals": null, "search_by": ["contains", "is", "is not"]}, "System/PowerType": {"search_vals": null, "search_by": ["contains", "is", "is not"]}, "System/Added": {"search_vals": null, "search_by": ["after", "before", "is"]}, "Devices/Subsys_device_id": {"search_vals": null, "search_by": ["contains", "is", "is not"]}, "System/Vendor": {"search_vals": null, "search_by": ["contains", "is", "is not"]}, "CPU/ModelName": {"search_vals": null, "search_by": ["contains", "is", "is not"]}, "System/Model": {"search_vals": null, "search_by": ["contains", "is", "is not"]}, "Disk/PhysicalSectorSize": {"search_vals": null, "search_by": ["greater than", "is", "is not", "less than"]}, "Disk/SectorSize": {"search_vals": null, "search_by": ["greater than", "is", "is not", "less than"]}, "System/Memory": {"search_vals": null, "search_by": ["greater than", "is", "is not", "less than"]}, "System/Owner": {"search_vals": null, "search_by": ["contains", "is", "is not"]}, "CPU/Cores": {"search_vals": null, "search_by": ["greater than", "is", "is not", "less than"]}, "System/LastInventoried": {"search_vals": null, "search_by": ["after", "before", "is"]}, "CPU/Hyper": {"search_vals": {"0": "False", "1": "True"}, "search_by": ["is", "is not"]}, "Devices/Description": {"search_vals": null, "search_by": ["contains", "is", "is not"]}, "System/NumaNodes": {"search_vals": null, "search_by": ["greater than", "is", "is not", "less than"]}, "System/LoanedTo": {"search_vals": null, "search_by": ["contains", "is", "is not"]}, "System/Type": {"search_vals": ["Laptop", "Machine", "Prototype", "Resource"], "search_by": ["is", "is not"]}, "System/Status": {"search_vals": ["Automated", "Broken", "Manual", "Removed"], "search_by": ["is", "is not"]}, "CPU/Processors": {"search_vals": null, "search_by": ["greater than", "is", "is not", "less than"]}, "System/Arch": {"search_vals": null, "search_by": ["contains", "is", "is not"]}, "Key/Value": {"NR_IB": {"search_by": ["greater than", "is", "is not", "less than"]}, "NETWORK": {"search_by": ["contains", "is", "is not"]}, "NEWKEY": {"search_by": ["contains", "is", "is not"]}, "STORAGE": {"search_by": ["contains", "is", "is not"]}, "CPUFLAGS": {"search_by": ["contains", "is", "is not"]}, "USBID": {"search_by": ["contains", "is", "is not"]}, "NR_ETH": {"search_by": ["greater than", "is", "is not", "less than"]}, "HAHAH": {"search_by": ["contains", "is", "is not"]}, "RTCERT": {"search_by": ["contains", "is", "is not"]}, "MODEL": {"search_by": ["contains", "is", "is not"]}, "DISK": {"search_by": ["contains", "is", "is not"]}, "COMMENT": {"search_by": ["contains", "is", "is not"]}, "CPUFAMILY": {"search_by": ["greater than", "is", "is not", "less than"]}, "CPUMODEL": {"search_by": ["contains", "is", "is not"]}, "DISKSPACE": {"search_by": ["greater than", "is", "is not", "less than"]}, "BUG2": {"search_by": ["contains", "is", "is not"]}, "CPUMODELNUMBER": {"search_by": ["greater than", "is", "is not", "less than"]}, "FORMFACTOR": {"search_by": ["contains", "is", "is not"]}, "VENDOR": {"search_by": ["contains", "is", "is not"]}, "CPUVENDOR": {"search_by": ["contains", "is", "is not"]}, "MEMORY": {"search_by": ["greater than", "is", "is not", "less than"]}, "NETBOOT_METHOD": {"search_by": ["contains", "is", "is not"]}, "BUG1": {"search_by": ["contains", "is", "is not"]}, "PROCESSORS": {"search_by": ["greater than", "is", "is not", "less than"]}, "HVM": {"search_by": ["contains", "is", "is not"]}, "wjtestkey": {"search_by": ["contains", "is", "is not"]}, "SCRATCH": {"search_by": ["contains", "is", "is not"]}, "XENCERT": {"search_by": ["contains", "is", "is not"]}, "keyvals": ["DISKSPACE", "COMMENT", "CPUFAMILY", "CPUFLAGS", "CPUMODEL", "CPUMODELNUMBER", "CPUSPEED", "CPUVENDOR", "FORMFACTOR", "HVM", "MEMORY", "MODEL", "NETWORK", "NR_DISKS", "NR_ETH", "NR_IB", "PROCESSORS", "RTCERT", "SCRATCH", "STORAGE", "USBID", "VENDOR", "XENCERT", "NETBOOT_METHOD", "DISK", "NEWKEY", "HAHAH", "wjtestkey", "testszhou", "BUG1", "BUG2"], "CPUSPEED": {"search_by": ["greater than", "is", "is not", "less than"]}, "testszhou": {"search_by": ["contains", "is", "is not"]}, "NR_DISKS": {"search_by": ["greater than", "is", "is not", "less than"]}}, "Disk/Size": {"search_vals": null, "search_by": ["greater than", "is", "is not", "less than"]}, "System/LoanComment": {"search_vals": null, "search_by": ["contains", "is", "is not"]}, "CPU/Model": {"search_vals": null, "search_by": ["greater than", "is", "is not", "less than"]}, "System/Lender": {"search_vals": null, "search_by": ["contains", "is", "is not"]}, "System/Hypervisor": {"search_vals": ["", "KVM", "Xen", "HyperV", "VMWare"], "search_by": ["is", "is not"]}, "Devices/Vendor_id": {"search_vals": null, "search_by": ["contains", "is", "is not"]}, "CPU/Family": {"search_vals": null, "search_by": ["greater than", "is", "is not", "less than"]}, "System/Name": {"search_vals": null, "search_by": ["contains", "is", "is not"]}, "System/Group": {"search_vals": null, "search_by": ["contains", "is", "is not"]}, "System/User": {"search_vals": null, "search_by": ["contains", "is", "is not"]}, "Disk/Model": {"search_vals": null, "search_by": ["contains", "is", "is not"]}, "System/SerialNumber": {"search_vals": null, "search_by": ["contains", "is", "is not"]}}, ["system/added", "system/lastinventoried"], false);
+        addLoadEvent(systemsearch_0.initialize);
+
+    </script>
+    <td>
+            <span><select id="systemsearch_0_table" name="systemsearch-0.table" class="singleselectfieldjson requiredfield">
+            <option value="CPU/Cores">CPU/Cores</option><option value="CPU/Family">CPU/Family</option><option value="CPU/Flags">CPU/Flags</option><option value="CPU/Hyper">CPU/Hyper</option><option value="CPU/Model">CPU/Model</option><option value="CPU/ModelName">CPU/ModelName</option><option value="CPU/Processors">CPU/Processors</option><option value="CPU/Sockets">CPU/Sockets</option><option value="CPU/Speed">CPU/Speed</option><option value="CPU/Stepping">CPU/Stepping</option><option value="CPU/Vendor">CPU/Vendor</option><option value="Devices/Description">Devices/Description</option><option value="Devices/Device_id">Devices/Device_id</option><option value="Devices/Driver">Devices/Driver</option><option value="Devices/Subsys_device_id">Devices/Subsys_device_id</option><option value="Devices/Subsys_vendor_id">Devices/Subsys_vendor_id</option><option value="Devices/Vendor_id">Devices/Vendor_id</option><option value="Disk/Model">Disk/Model</option><option value="Disk/PhysicalSectorSize">Disk/PhysicalSectorSize</option><option value="Disk/SectorSize">Disk/SectorSize</option><option value="Disk/Size">Disk/Size</option><option value="Key/Value">Key/Value</option><option value="System/Added">System/Added</option><option value="System/Arch">System/Arch</option><option value="System/Group">System/Group</option><option value="System/Hypervisor">System/Hypervisor</option><option value="System/LastInventoried">System/LastInventoried</option><option value="System/Lender">System/Lender</option><option value="System/LoanComment">System/LoanComment</option><option value="System/LoanedTo">System/LoanedTo</option><option value="System/Location">System/Location</option><option value="System/Memory">System/Memory</option><option value="System/Model">System/Model</option><option value="System/Name">System/Name</option><option value="System/NumaNodes">System/NumaNodes</option><option value="System/Owner">System/Owner</option><option value="System/PowerType">System/PowerType</option><option value="System/SerialNumber">System/SerialNumber</option><option value="System/Status">System/Status</option><option value="System/Type">System/Type</option><option value="System/User">System/User</option><option value="System/Vendor">System/Vendor</option>
+    </select></span>
+    </td><td>
+            <span><select id="systemsearch_0_keyvalue" name="systemsearch-0.keyvalue" class="singleselectfieldjson requiredfield hide_parent">
+            <option selected value=""></option>
+    </select></span>
+    </td><td>
+            <span><select id="systemsearch_0_operation" name="systemsearch-0.operation" class="singleselectfieldjson requiredfield">
+            <option selected value=""></option>
+    </select></span>
+    </td><td>
+            <span><input class="textfieldjson" type="text" id="systemsearch_0_value" name="systemsearch-0.value"></span>
+    </td>
+    <td>
+        <a href="javascript:SearchBarForm.removeItem('systemsearch_0')" class="btn"><i class="icon-remove"></i> Remove</a>
+    </td>
+    </tr>
+    </tbody>
+    </table></td><td>
+      <button type="submit" class="btn btn-primary">Search</button>
+    </td>
+    </tr>
+    <tr>
+    <td colspan="2">
+      <a href="javascript:SearchBarForm.addItem('systemsearch');" id="doclink" class="btn"><i class="icon-plus"></i> Add</a>
+    </td>
+    </tr>
+    </table>
+<a href="#" id="customcolumns">Toggle Result Columns</a> 
+<div style="display:none" id="selectablecolumns">
+    <ul class="unstyled">
+    <li>
+      <label>
+        <input type="checkbox" name="systemsearch_column_CPU/Cores" value="CPU/Cores" id="systemsearch_column_CPU/Cores">
+        CPU/Cores
+      </label>
+    </li><li>
+      <label>
+        <input type="checkbox" name="systemsearch_column_CPU/Family" value="CPU/Family" id="systemsearch_column_CPU/Family">
+        CPU/Family
+      </label>
+    </li><li>
+      <label>
+        <input type="checkbox" name="systemsearch_column_CPU/Hyper" value="CPU/Hyper" id="systemsearch_column_CPU/Hyper">
+        CPU/Hyper
+      </label>
+    </li><li>
+      <label>
+        <input type="checkbox" name="systemsearch_column_CPU/Model" value="CPU/Model" id="systemsearch_column_CPU/Model">
+        CPU/Model
+      </label>
+    </li><li>
+      <label>
+        <input type="checkbox" name="systemsearch_column_CPU/ModelName" value="CPU/ModelName" id="systemsearch_column_CPU/ModelName">
+        CPU/ModelName
+      </label>
+    </li><li>
+      <label>
+        <input type="checkbox" name="systemsearch_column_CPU/Processors" value="CPU/Processors" id="systemsearch_column_CPU/Processors">
+        CPU/Processors
+      </label>
+    </li><li>
+      <label>
+        <input type="checkbox" name="systemsearch_column_CPU/Sockets" value="CPU/Sockets" id="systemsearch_column_CPU/Sockets">
+        CPU/Sockets
+      </label>
+    </li><li>
+      <label>
+        <input type="checkbox" name="systemsearch_column_CPU/Speed" value="CPU/Speed" id="systemsearch_column_CPU/Speed">
+        CPU/Speed
+      </label>
+    </li><li>
+      <label>
+        <input type="checkbox" name="systemsearch_column_CPU/Stepping" value="CPU/Stepping" id="systemsearch_column_CPU/Stepping">
+        CPU/Stepping
+      </label>
+    </li><li>
+      <label>
+        <input type="checkbox" name="systemsearch_column_CPU/Vendor" value="CPU/Vendor" id="systemsearch_column_CPU/Vendor">
+        CPU/Vendor
+      </label>
+    </li><li>
+      <label>
+        <input type="checkbox" name="systemsearch_column_System/Added" value="System/Added" id="systemsearch_column_System/Added">
+        System/Added
+      </label>
+    </li><li>
+      <label>
+        <input type="checkbox" name="systemsearch_column_System/Arch" value="System/Arch" id="systemsearch_column_System/Arch">
+        System/Arch
+      </label>
+    </li><li>
+      <label>
+        <input type="checkbox" name="systemsearch_column_System/Group" value="System/Group" id="systemsearch_column_System/Group">
+        System/Group
+      </label>
+    </li><li>
+      <label>
+        <input type="checkbox" name="systemsearch_column_System/Hypervisor" value="System/Hypervisor" id="systemsearch_column_System/Hypervisor">
+        System/Hypervisor
+      </label>
+    </li><li>
+      <label>
+        <input type="checkbox" name="systemsearch_column_System/LastInventoried" value="System/LastInventoried" id="systemsearch_column_System/LastInventoried">
+        System/LastInventoried
+      </label>
+    </li><li>
+      <label>
+        <input type="checkbox" name="systemsearch_column_System/Lender" value="System/Lender" id="systemsearch_column_System/Lender">
+        System/Lender
+      </label>
+    </li><li>
+      <label>
+        <input type="checkbox" name="systemsearch_column_System/LoanComment" value="System/LoanComment" id="systemsearch_column_System/LoanComment">
+        System/LoanComment
+      </label>
+    </li><li>
+      <label>
+        <input type="checkbox" name="systemsearch_column_System/LoanedTo" value="System/LoanedTo" id="systemsearch_column_System/LoanedTo">
+        System/LoanedTo
+      </label>
+    </li><li>
+      <label>
+        <input type="checkbox" name="systemsearch_column_System/Location" value="System/Location" id="systemsearch_column_System/Location">
+        System/Location
+      </label>
+    </li><li>
+      <label>
+        <input type="checkbox" name="systemsearch_column_System/Memory" value="System/Memory" id="systemsearch_column_System/Memory">
+        System/Memory
+      </label>
+    </li><li>
+      <label>
+        <input type="checkbox" name="systemsearch_column_System/Model" value="System/Model" id="systemsearch_column_System/Model">
+        System/Model
+      </label>
+    </li><li>
+      <label>
+        <input type="checkbox" name="systemsearch_column_System/Name" value="System/Name" id="systemsearch_column_System/Name">
+        System/Name
+      </label>
+    </li><li>
+      <label>
+        <input type="checkbox" name="systemsearch_column_System/NumaNodes" value="System/NumaNodes" id="systemsearch_column_System/NumaNodes">
+        System/NumaNodes
+      </label>
+    </li><li>
+      <label>
+        <input type="checkbox" name="systemsearch_column_System/Owner" value="System/Owner" id="systemsearch_column_System/Owner">
+        System/Owner
+      </label>
+    </li><li>
+      <label>
+        <input type="checkbox" name="systemsearch_column_System/PowerType" value="System/PowerType" id="systemsearch_column_System/PowerType">
+        System/PowerType
+      </label>
+    </li><li>
+      <label>
+        <input type="checkbox" name="systemsearch_column_System/SerialNumber" value="System/SerialNumber" id="systemsearch_column_System/SerialNumber">
+        System/SerialNumber
+      </label>
+    </li><li>
+      <label>
+        <input type="checkbox" name="systemsearch_column_System/Status" value="System/Status" id="systemsearch_column_System/Status">
+        System/Status
+      </label>
+    </li><li>
+      <label>
+        <input type="checkbox" name="systemsearch_column_System/Type" value="System/Type" id="systemsearch_column_System/Type">
+        System/Type
+      </label>
+    </li><li>
+      <label>
+        <input type="checkbox" name="systemsearch_column_System/User" value="System/User" id="systemsearch_column_System/User">
+        System/User
+      </label>
+    </li><li>
+      <label>
+        <input type="checkbox" name="systemsearch_column_System/Vendor" value="System/Vendor" id="systemsearch_column_System/Vendor">
+        System/Vendor
+      </label>
+    </li>  
+    </ul>
+<a style="margin-left:10px" href="#" id="selectnone">Select None</a>
+<a style="margin-left:10px" href="#" id="selectall">Select All</a>
+<a style="margin-left:10px" href="#" id="selectdefault">Select Default</a>
+</div> 
+</form>
+<script type="text/javascript">
+$(document).ready(function() {
+
+    $(document).on('mouseover', '.datepicker', function(event) {
+        $(this).datepicker({ dateFormat: 'yy-mm-dd', 
+                             changeMonth: true,
+                             changeYear: true,
+                             yearRange: '-5:+0'
+                            }); 
+    });
+    $('#showadvancedsearch').click(function () {
+        $('#searchform').show('slow');
+        $('#simpleform').hide('slow');
+        return false;
+    });
+    $('#hideadvancedsearch').click(function () {
+        $('#searchform').hide('slow');
+        $('#simpleform').show('slow');
+        return false;
+    });
+    $('#customcolumns').click(function () {
+        $('#selectablecolumns').toggle('slow');
+        return false;
+    });
+    $('#selectnone').click(function () {
+        $("input[name *= 'systemsearch_column_']").prop('checked', false);
+        return false;
+    });
+    $('#selectall').click(function () {
+        $("input[name *= 'systemsearch_column_']").prop('checked', true);
+        return false;
+    });
+    $('#selectdefault').click(function () {
+        $("input[name *= 'systemsearch_column_']").each(function () {
+            select_only_default($(this));
+        });
+        return false;
+    });
+
+    function select_only_default(obj) {
+        var defaults = {"System/Name": 1, "System/Status": 1, "System/User": 1, "System/Type": 1, "System/Model": 1, "System/Vendor": 1, "System/Arch": 1}
+        var current_item = obj.val()
+        var the_name = 'systemsearch_column_'+current_item
+            if (defaults[current_item] == 1) {
+                $("input[name = '"+the_name+"']").prop('checked', true);
+            } else {
+                $("input[name = '"+the_name+"']").prop('checked', false);
+            }
+        }
+    });
+
+
+</script>
+</div></span>
+<div>
+  <div class="pagination pagination-right">
+    <div class="pagination-beside">
+        <span class="item-count">Items found: 38</span>
+    </div>
+    <ul>
+            <li class="active">
+                <span>1</span>
+            </li>
+            <li>
+                <a href="?list_tgp_no=2&amp;list_tgp_limit=20&amp;list_tgp_ordering=fqdn">2</a>
+            </li>
+    </ul>
+  </div>
+  <table id="widget" class="table table-striped table-hover table-condensed table-one-line-per-row">
+    <thead>
+      <tr>
+        <th>
+          <a href="?list_tgp_no=1&amp;list_tgp_limit=20&amp;list_tgp_ordering=fqdn&amp;list_tgp_order=fqdn">Name</a>
+        </th><th>
+          <a href="?list_tgp_no=1&amp;list_tgp_limit=20&amp;list_tgp_ordering=fqdn&amp;list_tgp_order=status">Status</a>
+        </th><th>
+          <a href="?list_tgp_no=1&amp;list_tgp_limit=20&amp;list_tgp_ordering=fqdn&amp;list_tgp_order=vendor">Vendor</a>
+        </th><th>
+          <a href="?list_tgp_no=1&amp;list_tgp_limit=20&amp;list_tgp_ordering=fqdn&amp;list_tgp_order=model">Model</a>
+        </th><th>
+          Arch
+        </th><th>
+          <a href="?list_tgp_no=1&amp;list_tgp_limit=20&amp;list_tgp_ordering=fqdn&amp;list_tgp_order=user.user_name">User</a>
+        </th><th>
+          <a href="?list_tgp_no=1&amp;list_tgp_limit=20&amp;list_tgp_ordering=fqdn&amp;list_tgp_order=type">Type</a>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+              <a href="/view/calxeda-arm-soc-03.rhts.eng.bos.redhat.com">calxeda-arm-soc-03.rhts.eng.bos.redhat.com</a>
+        </td><td>
+              Removed
+        </td><td>
+              calxeda
+        </td><td>
+        </td><td>
+              armhfp
+        </td><td>
+        </td><td>
+              Machine
+        </td>
+      </tr><tr>
+        <td>
+              <a href="/view/calxeda-arm-soc-05.rhts.eng.bos.redhat.com">calxeda-arm-soc-05.rhts.eng.bos.redhat.com</a>
+        </td><td>
+              Removed
+        </td><td>
+        </td><td>
+        </td><td>
+        </td><td>
+        </td><td>
+              Laptop
+        </td>
+      </tr><tr>
+        <td>
+              <a href="/view/calxeda-soc-01-n04.rhts.eng.bos.redhat.com">calxeda-soc-01-n04.rhts.eng.bos.redhat.com</a>
+        </td><td>
+              Automated
+        </td><td>
+              calxeda
+        </td><td>
+        </td><td>
+              armhfp
+        </td><td>
+        </td><td>
+              Machine
+        </td>
+      </tr><tr>
+        <td>
+              <a href="/view/dell-pe1850-01.rhts.eng.bos.redhat.com">dell-pe1850-01.rhts.eng.bos.redhat.com</a>
+        </td><td>
+              Manual
+        </td><td>
+              Dell Computer Corporation
+        </td><td>
+              PowerEdge 1850
+        </td><td>
+              i386, x86_64
+        </td><td>
+              rmancy
+        </td><td>
+              Machine
+        </td>
+      </tr><tr>
+        <td>
+              <a href="/view/dell-pe1850-02.rhts.eng.bos.redhat.com">dell-pe1850-02.rhts.eng.bos.redhat.com</a>
+        </td><td>
+              Broken
+        </td><td>
+              Dell Computer Corporation
+        </td><td>
+              PowerEdge 1850
+        </td><td>
+              i386, x86_64
+        </td><td>
+        </td><td>
+              Machine
+        </td>
+      </tr><tr>
+        <td>
+              <a href="/view/dev-kvm-guest-01.rhts.eng.bos.redhat.com">dev-kvm-guest-01.rhts.eng.bos.redhat.com</a>
+        </td><td>
+              Automated
+        </td><td>
+              Red Hat
+        </td><td>
+              KVM RHEL 6.0.0 PC
+        </td><td>
+              i386, x86_64
+        </td><td>
+        </td><td>
+              Machine
+        </td>
+      </tr><tr>
+        <td>
+              <a href="/view/dev-kvm-guest-02.rhts.eng.bos.redhat.com">dev-kvm-guest-02.rhts.eng.bos.redhat.com</a>
+        </td><td>
+              Automated
+        </td><td>
+              Red Hat
+        </td><td>
+              KVM RHEL 6.0.0 PC
+        </td><td>
+              i386, x86_64
+        </td><td>
+              ncoghlan
+        </td><td>
+              Machine
+        </td>
+      </tr><tr>
+        <td>
+              <a href="/view/dev-kvm-guest-03.rhts.eng.bos.redhat.com">dev-kvm-guest-03.rhts.eng.bos.redhat.com</a>
+        </td><td>
+              Automated
+        </td><td>
+              Red Hat
+        </td><td>
+              KVM RHEL 6.0.0 PC
+        </td><td>
+              i386, x86_64
+        </td><td>
+        </td><td>
+              Machine
+        </td>
+      </tr><tr>
+        <td>
+              <a href="/view/dev-kvm-guest-07.rhts.eng.bos.redhat.com">dev-kvm-guest-07.rhts.eng.bos.redhat.com</a>
+        </td><td>
+              Automated
+        </td><td>
+              Red Hat
+        </td><td>
+              KVM RHEL 6.0.0 PC
+        </td><td>
+              i386, x86_64
+        </td><td>
+        </td><td>
+              Machine
+        </td>
+      </tr><tr>
+        <td>
+              <a href="/view/dev-kvm-guest-08.rhts.eng.bos.redhat.com">dev-kvm-guest-08.rhts.eng.bos.redhat.com</a>
+        </td><td>
+              Automated
+        </td><td>
+              Red Hat
+        </td><td>
+              KVM RHEL 6.0.0 PC
+        </td><td>
+              i386, x86_64
+        </td><td>
+        </td><td>
+              Machine
+        </td>
+      </tr><tr>
+        <td>
+              <a href="/view/dev-kvm-guest-09.rhts.eng.bos.redhat.com">dev-kvm-guest-09.rhts.eng.bos.redhat.com</a>
+        </td><td>
+              Automated
+        </td><td>
+              Red Hat
+        </td><td>
+              KVM RHEL 6.0.0 PC
+        </td><td>
+              i386, x86_64
+        </td><td>
+        </td><td>
+              Machine
+        </td>
+      </tr><tr>
+        <td>
+              <a href="/view/dev-kvm-guest-10.rhts.eng.bos.redhat.com">dev-kvm-guest-10.rhts.eng.bos.redhat.com</a>
+        </td><td>
+              Automated
+        </td><td>
+              Red Hat
+        </td><td>
+              KVM RHEL 6.0.0 PC
+        </td><td>
+              i386, x86_64
+        </td><td>
+        </td><td>
+              Machine
+        </td>
+      </tr><tr>
+        <td>
+              <a href="/view/dev-pe1850-01.rhts.eng.bos.redhat.com">dev-pe1850-01.rhts.eng.bos.redhat.com</a>
+        </td><td>
+              Broken
+        </td><td>
+              Dell
+        </td><td>
+              PE1850
+        </td><td>
+              i386, x86_64
+        </td><td>
+        </td><td>
+              Machine
+        </td>
+      </tr><tr>
+        <td>
+              <a href="/view/dev-pe1950-01.rhts.eng.bos.redhat.com">dev-pe1950-01.rhts.eng.bos.redhat.com</a>
+        </td><td>
+              Automated
+        </td><td>
+              Dell
+        </td><td>
+              PE1950
+        </td><td>
+              i386, x86_64
+        </td><td>
+        </td><td>
+              Machine
+        </td>
+      </tr><tr>
+        <td>
+              <a href="/view/dev-pe1950-03.rhts.eng.bos.redhat.com">dev-pe1950-03.rhts.eng.bos.redhat.com</a>
+        </td><td>
+              Automated
+        </td><td>
+              Dell
+        </td><td>
+              PE1950
+        </td><td>
+              i386, x86_64
+        </td><td>
+        </td><td>
+              Machine
+        </td>
+      </tr><tr>
+        <td>
+              <a href="/view/dev-pe1950-04.rhts.eng.bos.redhat.com">dev-pe1950-04.rhts.eng.bos.redhat.com</a>
+        </td><td>
+              Automated
+        </td><td>
+              Dell
+        </td><td>
+              PE1950
+        </td><td>
+              i386, x86_64
+        </td><td>
+        </td><td>
+              Machine
+        </td>
+      </tr><tr>
+        <td>
+              <a href="/view/dev-pe2850-01.rhts.eng.bos.redhat.com">dev-pe2850-01.rhts.eng.bos.redhat.com</a>
+        </td><td>
+              Automated
+        </td><td>
+              Dell
+        </td><td>
+              PE2850
+        </td><td>
+              i386, x86_64
+        </td><td>
+        </td><td>
+              Machine
+        </td>
+      </tr><tr>
+        <td>
+              <a href="/view/hp-lp1.rhts.eng.bos.redhat.com">hp-lp1.rhts.eng.bos.redhat.com</a>
+        </td><td>
+              Automated
+        </td><td>
+              HP
+        </td><td>
+              zx6000/rx2600/zx2000
+        </td><td>
+              ia64
+        </td><td>
+        </td><td>
+              Machine
+        </td>
+      </tr><tr>
+        <td>
+              <a href="/view/ibm-js20-01.lab.bos.redhat.com">ibm-js20-01.lab.bos.redhat.com</a>
+        </td><td>
+              Automated
+        </td><td>
+              IBM
+        </td><td>
+              JS20
+        </td><td>
+              ppc, ppc64
+        </td><td>
+        </td><td>
+              Machine
+        </td>
+      </tr><tr>
+        <td>
+              <a href="/view/ibm-p750e-01-lp2.rhts.eng.bos.redhat.com">ibm-p750e-01-lp2.rhts.eng.bos.redhat.com</a>
+        </td><td>
+              Automated
+        </td><td>
+              IBM
+        </td><td>
+              8233-E8B
+        </td><td>
+              ppc64
+        </td><td>
+        </td><td>
+              Machine
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <div style="float: left;">
+    <a href="/new" class="btn btn-primary"><i class="icon-plus"></i> Add</a>
+  </div>
+  <div class="pagination pagination-right">
+    <div class="pagination-beside">
+        <span class="item-count">Items found: 38</span>
+    </div>
+    <ul>
+            <li class="active">
+                <span>1</span>
+            </li>
+            <li>
+                <a href="?list_tgp_no=2&amp;list_tgp_limit=20&amp;list_tgp_ordering=fqdn">2</a>
+            </li>
+    </ul>
+  </div>
+</div>
+    <footer>
+        <ul class="inline">
+            <li>Version 0.15.6.git.149.c3925c4</li>
+            <li><a href="https://bugzilla.redhat.com/enter_bug.cgi?product=Beaker">Report Bug</a></li>
+            <li><a href="http://beaker-project.org/help.html">Documentation</a></li>
+        </ul>
+    </footer>
+</div>
+<!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://analytics.engineering.redhat.com/piwik/" : "http://analytics.engineering.redhat.com/piwik/");
+jQuery.ajax({
+    url: pkBaseURL + 'piwik.js',
+    dataType: 'script',
+    cache: true, // prevent jQuery appending a stupid timestamp parameter
+    success: function () {
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 10);
+piwikTracker.setCustomVariable(1, 'beaker_user', 'tfeng');
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+    }
+});
+</script><noscript><p><img src="//analytics.engineering.redhat.com/piwik/piwik.php?idsite=10" style="border:0" alt=""></p></noscript>
+<!-- End Piwik Tracking Code -->
+</body>
+</html>

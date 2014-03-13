@@ -1,0 +1,1050 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<searchresults total_results="81">
+          <addon id="4949">
+  <name>AutoAuth</name>
+  <type id="1">Extension</type>
+  <guid>autoauth@efinke.com</guid>
+  <slug>autoauth</slug>
+  <version>2.1</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="2519">
+      <name>Christopher Finke</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/cfinke/?src=api</link>
+    </author>      </authors>
+  <summary>AutoAuth automatically submits HTTP authentication dialogs when you’ve chosen to have the browser save your login information. </summary>
+  <description>AutoAuth automatically submits HTTP authentication dialogs when you’ve chosen to have the browser save your login information. (If you’ve already told the browser what your username and password are, and you’ve told it to remember that username and password, why not just have it automatically submit it instead of asking you each time?)
+
+If you don&#39;t have a username and password saved for a subdomain (e.g., foo.bar.com), AutoAuth will give you a list of suggestions for that domain, based on other saved usernames and passwords for similar subdomains (e.g., bar.com or *.bar.com). Just choose which username to use from the list, and hit the Autofill button. [This feature is only available in Firefox 2.]</description><license>
+    <name>GNU General Public License, version 2.0</name>
+    <url>http://www.gnu.org/licenses/gpl-2.0.html</url>
+  </license>  <icon size="64"></icon>
+  <icon size="32"></icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>3.6</min_version>
+      <max_version>27.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application><application>
+      <name>Thunderbird</name>
+      <application_id>18</application_id>
+      <min_version>5.0</min_version>
+      <max_version>15.0a1</max_version>
+      <appID>{3550f703-e582-4d05-9a08-453d09bdfdc6}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/autoauth/?src=api</learnmore><install hash="sha256:8c5f205b735afb3cae9ec54be4b9a02de5188eb0eb4f018d70e12c1f90835d48"
+    os="ALL"
+    size="16384">https://addons.mozilla.org/firefox/downloads/file/108175/autoauth-2.1-fx+fn.xpi?src=api</install>
+  <contribution_data>
+      <link>https://addons.mozilla.org/en-US/firefox/addon/autoauth/contribute/?src=api</link>
+                <suggested_amount currency="USD" amount="2.00">
+            $2.00
+          </suggested_amount>
+            <meet_developers>
+        https://addons.mozilla.org/en-US/firefox/addon/autoauth/developers?src=api
+      </meet_developers>
+    </contribution_data><developer_comments></developer_comments>
+    <reviews num="43">
+      https://addons.mozilla.org/en-US/firefox/addon/autoauth/reviews/?src=api
+    </reviews>
+    <total_downloads>342605</total_downloads>
+    <weekly_downloads>398</weekly_downloads>
+    <daily_users>12592</daily_users>
+    <created epoch="1178661578">
+      2007-05-08T21:59:38Z
+    </created>
+    <last_updated epoch="1294957459">
+      2011-01-13T22:24:19Z
+    </last_updated>
+    <homepage>http://www.chrisfinke.com/addons/autoauth/</homepage>
+    <support></support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="4925">
+  <name>AutoPager</name>
+  <type id="1">Extension</type>
+  <guid>autopager@mozilla.org</guid>
+  <slug>autopager</slug>
+  <version>0.8.0.10</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="16310">
+      <name>Wind Li</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/wind-li/?src=api</link>
+    </author>      </authors>
+  <summary>AutoPager automatically loads next pages when you reach the end of a page. It works on a ton of sites,Google,Yahoo..
+It works well with most other add-ons adblock plus, WOT and most of the greasemonkey scripts.
+You can also try AutoPagerLite.</summary>
+  <description>Firefox 26 compatiable version here:
+&lt;a href=&#34;http://outgoing.mozilla.org/v1/e6a38c79742687dc02b91be5e975087507f45d66efdf604fe052724b0fee8b70/https%3A//secure.teesoft.info/autopager/autopager_0.8.0.10.xpi&#34; rel=&#34;nofollow&#34;&gt;https://secure.teesoft.info/autopager/autopager_0.8.0.10.xpi&lt;/a&gt;
+
+(Please use Lite mode if your device has less memory or low processor.)
+The AutoPager Firefox extension automatically loads the next page of a site inline when you reach the end of the current page for infinite scrolling of content. 
+It includes a adblock similar features to allow you filter out the ads from the contents in the loaded page contents.
+It works well with most of the greasemonkey scripts.
+By default AutoPager works with a ton of sites, including Lifehacker, the New York Times, Digg, and, of course, Google.  If you want to add your own custom autopaging to unsupported sites, the site wizard feature makes it easy (first pick the Next link, then pick only the content you want loaded. The site workshop provide more features like auto discovery the links and content.
+It&#39;s configuration is base on XPath. You can find there is a built in function to create a XPath by click some links on the pages. This extension will import online configuration from this sources,these configurations includes support for some widely used sites and some general support for forums. 
+You can also share your site rules by click public button in the setting dialog.
+You can find XPath tutorials at &lt;a href=&#34;http://outgoing.mozilla.org/v1/8adff66a0bd28b3fdf0dff1c7efeb97b45073a2ff44f618bb9422bac4f72d9b2/http%3A//www.w3schools.com/xpath/&#34; rel=&#34;nofollow&#34;&gt;http://www.w3schools.com/xpath/&lt;/a&gt; and &lt;a href=&#34;http://outgoing.mozilla.org/v1/db0409dcdbca997abe4002caaf64f0a58671fa2563a8f9eb806092262bc29262/http%3A//www.zvon.org/xxl/XPathTutorial/General/examples.html&#34; rel=&#34;nofollow&#34;&gt;http://www.zvon.org/xxl/XPathTutorial/General/examples.html&lt;/a&gt;. 
+You can always get the stable version here and the newer develop version at: &lt;a href=&#34;http://outgoing.mozilla.org/v1/8975dba94e31ec14ec96574c75774bcef4ef0f7aba4f494dd241444b4cc0fed4/http%3A//www.teesoft.info/content/view/68/1/&#34; rel=&#34;nofollow&#34;&gt;http://www.teesoft.info/content/view/68/1/&lt;/a&gt;
+
+You can find our tutorials at &lt;a href=&#34;http://outgoing.mozilla.org/v1/3279ab44795887d91626ce6fd0cca7f00edcd7c36d69c61d6f93d8b2ce0c4679/http%3A//www.teesoft.info/content/view/91/1/&#34; rel=&#34;nofollow&#34;&gt;http://www.teesoft.info/content/view/91/1/&lt;/a&gt;
+And some tips for creating AutoPager rules for new sites:
+&lt;a href=&#34;http://outgoing.mozilla.org/v1/6ed1866947161feb6c06d17b68d16f7ee9a5f74c59c5749e54e5fafc1d42b076/http%3A//www.teesoft.info/content/view/87/1/&#34; rel=&#34;nofollow&#34;&gt;http://www.teesoft.info/content/view/87/1/&lt;/a&gt;
+It also supports show the related searches for the page. You can turn it on with the choose the search engine you want.
+AP doesn&#39;t enable related search unless user choose a engine from : Surf Canyon Search, Google search, Bing search or wikipedia. Other search engines are being working on.</description><license>
+    <name>GNU General Public License, version 2.0</name>
+    <url>http://www.gnu.org/licenses/gpl-2.0.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/4/4925-64.png?modified=1387256471</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/4/4925-32.png?modified=1387256471</icon>
+  <compatible_applications><application>
+      <name>SeaMonkey</name>
+      <application_id>59</application_id>
+      <min_version>1.0</min_version>
+      <max_version>2.3.*</max_version>
+      <appID>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</appID>
+    </application><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>3.0</min_version>
+      <max_version>29.0</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application><application>
+      <name>Mobile</name>
+      <application_id>60</application_id>
+      <min_version>4.0b1pre</min_version>
+      <max_version>19.*</max_version>
+      <appID>{a23983c0-fd0e-11dc-95ff-0800200c9a66}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="image/png" width="671" height="525">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/13/13792.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="191" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/13/13792.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>auto loading google image search pages</caption></preview><preview position="1">
+      <full type="image/png" width="671" height="525">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/13/13791.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="191" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/13/13791.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>auto loading google search pages</caption></preview><preview position="1">
+      <full type="image/png" width="623" height="525">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/13/13804.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="178" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/13/13804.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>auto loading pages on addons.mozilla.org</caption></preview><preview position="1">
+      <full type="image/png" width="700" height="405">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/13/13805.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="115">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/13/13805.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>autopager settings</caption></preview><preview position="1">
+      <full type="image/png" width="606" height="525">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/13/13806.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="173" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/13/13806.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>create XPath by click a link on the page</caption></preview><preview position="1">
+      <full type="image/png" width="700" height="495">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/13/13884.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="141">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/13/13884.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>smart paging</caption></preview><preview position="1">
+      <full type="image/png" width="674" height="525">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/13/13887.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="192" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/13/13887.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>The XPath generator in action</caption></preview></previews><rating>5</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/autopager/?src=api</learnmore><install hash="sha256:3097379007bfbdd7188757cca50cb5830635a388bc91d055f9f6e7b5fd2f946f"
+    os="ALL"
+    size="349185">https://addons.mozilla.org/firefox/downloads/file/237138/autopager-0.8.0.10-sm+fx+fn.xpi?src=api</install>
+  <contribution_data>
+      <link>https://addons.mozilla.org/en-US/firefox/addon/autopager/contribute/?src=api</link>
+                <suggested_amount currency="USD" amount="10.00">
+            $10.00
+          </suggested_amount>
+            <meet_developers>
+        https://addons.mozilla.org/en-US/firefox/addon/autopager/developers?src=api
+      </meet_developers>
+    </contribution_data><developer_comments>Recent update may failed to install due to some mozilla site issue: &lt;a href=&#34;http://outgoing.mozilla.org/v1/0f03079a3a6916b08087bc527320e63c45098179/https%3A//bugzilla.mozilla.org/show_bug.cgi%3Fid%3D544587&#34;&gt;https://bugzilla.mozilla.org/show_bug.cgi?id=544587&lt;/a&gt;
+
+(Please use &lt;a href=&#34;http://outgoing.mozilla.org/v1/24549cd04ee7aeff85ce7d55ba683f5f9b494ea5/http%3A//www.teesoft.info/content/view/105/1/&#34;&gt;AutoPagerLite&lt;/a&gt; if your device has less memory or low processor.)
+You can try
+Ctrl+ALT+3 if AutoPager doesn&#39;t automatically work on your google search. It&#39;s shortcut for Tools-&amp;gt;AutoPager-&amp;gt;Immediately Load-&amp;gt;Load 3 pages.
+
+You can always get the stable version here and the newer develop version at: &lt;a href=&#34;http://outgoing.mozilla.org/v1/395e7d5dad84c675a3df4954d2d992d5090c71ca/http%3A//www.teesoft.info/content/view/68/1/&#34;&gt;http://www.teesoft.info/content/view/68/1/&lt;/a&gt;.
+
+You can find our tutorials at &lt;a href=&#34;http://outgoing.mozilla.org/v1/bb87bc3a81bf4a1108cc597571e448c9abebc151/http%3A//www.teesoft.info/content/view/91/1/&#34;&gt;http://www.teesoft.info/content/view/91/1/&lt;/a&gt;
+And some tips for &lt;a href=&#34;http://outgoing.mozilla.org/v1/c94264570736e8405eb2b62098ff1a7da0dbc487/http%3A//www.teesoft.info/content/view/87/1/&#34;&gt;creating AutoPager rules for new sites&lt;/a&gt;:
+&lt;a href=&#34;http://outgoing.mozilla.org/v1/c94264570736e8405eb2b62098ff1a7da0dbc487/http%3A//www.teesoft.info/content/view/87/1/&#34;&gt;http://www.teesoft.info/content/view/87/1/&lt;/a&gt;
+
+Here you will find some tuning tips:
+&lt;a href=&#34;http://outgoing.mozilla.org/v1/a644768d59e69d33abde65d8ba6b074f6df875d6/http%3A//www.teesoft.info/content/view/74/35/&#34;&gt;http://www.teesoft.info/content/view/74/35/&lt;/a&gt;
+Please report bugs to &lt;a href=&#34;http://outgoing.mozilla.org/v1/07399b14e0749a9f59e6468dba08775ae8001efb/http%3A//www.teesoft.info/component/option%2Ccom_wrapper/Itemid%2C48/.&#34;&gt;http://www.teesoft.info/component/option,com_wrapper/Itemid,48/.&lt;/a&gt;
+AutoPager in your language: you can help to translate AutoPager to your language at:
+&lt;a href=&#34;http://outgoing.mozilla.org/v1/ff7d85127378c8608765e88a17581f95d88815b8/http%3A//www.babelzilla.org/index.php%3Foption%3Dcom_wts%26Itemid%3D88%26extension%3D4820%26type%3Dlang&#34;&gt;http://www.babelzilla.org/index.php?option=com_wts&amp;amp;Itemid=88&amp;amp;extension=4820&amp;amp;type=lang&lt;/a&gt;
+
+Please turn of &#34;Give the search box focus&#34; in CustomizeGoogle Options if you have CustomizeGoogle installed, which will cause the focus lost issues in AutoPager.
+AutoPager load next page in a hidden frame. If the page set focus in the load event or if you have any addons which set focus on page load then the focus may be set to the hidden frame autopager used to load the next pages.
+
+Dec 18,2009:
+google.com changed their page layout to anti AutoPager again.\r\nWe had updated the rules to address it. Please use Tools-&amp;gt;AutoPager-&amp;gt;Update Setting Online to get it.\r\nYou can always try search from the search box in FireFox.
+
+Trouble shooting when it stops working.
+First of all you need to understand, AutoPager will not work on all pages. It only works on whether there is a suitable rule for it. The rule may out of date if the pages change their layout.
+You can try there steps when this happen:
+1. Upgrade to the last version at : &lt;a href=&#34;http://outgoing.mozilla.org/v1/8fea50b76092c3097a5d35b49acfe85ee394158f/https%3A//addons.mozilla.org/en-US/firefox/addons/versions/4925&#34;&gt;https://addons.mozilla.org/en-US/firefox/addons/versions/4925&lt;/a&gt;  or &lt;a href=&#34;http://outgoing.mozilla.org/v1/6395623625da9dc1ea9b8ba3175fd421b8b98491/https%3A//secure.teesoft.info/autopager/autopager-last.xpi.&#34;&gt;https://secure.teesoft.info/autopager/autopager-last.xpi.&lt;/a&gt;
+2. Use Tools-&amp;gt;AutoPager-&amp;gt;Fix Issues-&amp;gt;Trouble shooting. This will check your configuration and update the rules online and will lead you to our forum to submit a ticket if it still not work.</developer_comments>
+    <reviews num="354">
+      https://addons.mozilla.org/en-US/firefox/addon/autopager/reviews/?src=api
+    </reviews>
+    <total_downloads>9092082</total_downloads>
+    <weekly_downloads>4462</weekly_downloads>
+    <daily_users>136260</daily_users>
+    <created epoch="1178379345">
+      2007-05-05T15:35:45Z
+    </created>
+    <last_updated epoch="1387301700">
+      2013-12-17T17:35:00Z
+    </last_updated>
+    <homepage>http://www.teesoft.info/</homepage>
+    <support>http://www.teesoft.info/phpbb/viewforum.php?f=3</support>
+    <featured>0</featured>
+        <performance>
+            <application name="fx" version="8.0.1">
+                <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="479.26" average="476.32"
+                  above_threshold="false" />
+        </platform>        <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="548.47" average="560.89"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6 (rev4)">
+          <result type="ts" baseline="637.58" average="633.95"
+                  above_threshold="false" />
+        </platform></application>      <application name="fx" version="6.0.2">
+                <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="519.79" average="585.16"
+                  above_threshold="false" />
+        </platform>        <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="476.21" average="535.05"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6.2">
+          <result type="ts" baseline="654.42" average="729.89"
+                  above_threshold="false" />
+        </platform></application>      <application name="fx" version="7.0.1">
+                <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="547.16" average="620.63"
+                  above_threshold="false" />
+        </platform>        <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="479.68" average="532.53"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6.2 (rev3)">
+          <result type="ts" baseline="667.37" average="703.68"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6.2">
+          <result type="ts" baseline="671.16" average="728.84"
+                  above_threshold="false" />
+        </platform></application>      <application name="fx" version="8.0">
+                <platform name="MacOSX" version="10.6 (rev4)">
+          <result type="ts" baseline="624.84" average="634.42"
+                  above_threshold="false" />
+        </platform>        <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="541.58" average="558.84"
+                  above_threshold="false" />
+        </platform>        <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="477.95" average="479.84"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6.2 (rev3)">
+          <result type="ts" baseline="657.21" average="654.32"
+                  above_threshold="false" />
+        </platform></application></performance>
+    </addon>
+  <addon id="11009">
+  <name>AutoProxy</name>
+  <type id="1">Extension</type>
+  <guid>autoproxy@autoproxy.org</guid>
+  <slug>autoproxy</slug>
+  <version>0.4b2.2013051811</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="996144">
+      <name>lovelywcm</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/lovelywcm/?src=api</link>
+    </author>      </authors>
+  <summary>Are you concerned about your privacy? Or, are you blocked from some websites by a firewall? And, are you arming yourself with a proxy? In that case, AutoProxy is designed for you! A tool to help you use your proxy automatically &amp;amp; efficiently.</summary>
+  <description>AutoProxy is an add-on to help you use your proxy (http/socks) automatically &amp;amp; efficiently.
+
+With AutoProxy, you no longer need to switch your proxy status between on &amp;amp; off manually. If you prefer to visit a website via proxy, just add it&#39;s domain to AutoProxy&#39;s preference. After that, when you surfing, specified websites will be transfered through proxy while leaving others connect directly.
+
+What&#39;s more, you can subscribe to rule lists maintained by people who have similar requirements as you. So, you don&#39;t need to add all proxy rules by yourself.
+
+&lt;strong&gt;Note:&lt;/strong&gt;
+&#34;gfwList&#34; is a list for people in mainland China suffering from the censorship of GFW. If you aren&#39;t in mainland China, please do NOT subscribe to &#34;gfwList&#34;. AutoProxy should contain lists for other requirements. If you&#39;d like to share your proxy rules to people in the same state/school/company/network...by maintaining a rule list, it would always be most appreciated, please check out &lt;a href=&#34;http://outgoing.mozilla.org/v1/46b81fb80799021aefa486e59c72f199721f238a/http%3A//autoproxy.org/en/subscriptions&#34; rel=&#34;nofollow&#34;&gt;http://autoproxy.org/en/subscriptions&lt;/a&gt; .
+
+
+AutoProxy is derived from Adblock Plus, thanks the ABP community especially it&#39;s author Wladimir Palant!</description><license>
+    <name>Custom License</name>
+    <url>http://www.mozilla.org/MPL/MPL-1.1.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/11/11009-64.png?modified=1354204787</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/11/11009-32.png?modified=1354204787</icon>
+  <compatible_applications><application>
+      <name>SeaMonkey</name>
+      <application_id>59</application_id>
+      <min_version>2.4</min_version>
+      <max_version>2.21</max_version>
+      <appID>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</appID>
+    </application><application>
+      <name>Thunderbird</name>
+      <application_id>18</application_id>
+      <min_version>5.0</min_version>
+      <max_version>24.*</max_version>
+      <appID>{3550f703-e582-4d05-9a08-453d09bdfdc6}</appID>
+    </application><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>4.0</min_version>
+      <max_version>28.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="image/png" width="661" height="390">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/30/30338.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="118">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/30/30338.png?src=api&amp;modified=1331247702
+      </thumbnail></preview><preview position="1">
+      <full type="image/png" width="614" height="432">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/30/30337.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="140">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/30/30337.png?src=api&amp;modified=1331247702
+      </thumbnail></preview><preview position="1">
+      <full type="image/png" width="503" height="256">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/30/30339.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="101">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/30/30339.png?src=api&amp;modified=1331247702
+      </thumbnail></preview><preview position="1">
+      <full type="image/png" width="529" height="321">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/30/30340.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="121">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/30/30340.png?src=api&amp;modified=1331247702
+      </thumbnail></preview><preview position="1">
+      <full type="image/png" width="699" height="328">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/30/30341.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="93">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/30/30341.png?src=api&amp;modified=1331247702
+      </thumbnail></preview><preview position="1">
+      <full type="image/png" width="699" height="326">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/30/30342.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="93">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/30/30342.png?src=api&amp;modified=1331247702
+      </thumbnail></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/autoproxy/?src=api</learnmore><install hash="sha256:6e9c1938b15e2671e3bc03f10415e0c2e57891d0da25312f75381260a7168ef6"
+    os="ALL"
+    size="191061">https://addons.mozilla.org/firefox/downloads/file/208824/autoproxy-0.4b2.2013051811-sm+tb+fx.xpi?src=api</install>
+  <developer_comments>Please do &lt;strong&gt;NOT&lt;/strong&gt; report bug here.
+
+Issue reports at project home ( &lt;a href=&#34;http://outgoing.mozilla.org/v1/a5cf923f7a3e7f90a76147efa653adfb36d6fe99/http%3A//code.google.com/p/autoproxy/issues/list&#34;&gt;http://code.google.com/p/autoproxy/issues/list&lt;/a&gt; ) will have rapid response and are always most appreciated.</developer_comments>
+    <reviews num="352">
+      https://addons.mozilla.org/en-US/firefox/addon/autoproxy/reviews/?src=api
+    </reviews>
+    <total_downloads>3547928</total_downloads>
+    <weekly_downloads>19211</weekly_downloads>
+    <daily_users>98501</daily_users>
+    <created epoch="1236558424">
+      2009-03-09T00:27:04Z
+    </created>
+    <last_updated epoch="1369425554">
+      2013-05-24T19:59:14Z
+    </last_updated>
+    <homepage>https://AutoProxy.org/</homepage>
+    <support>https://autoproxy.org/</support>
+    <featured>1</featured>
+        <performance>
+            <application name="fx" version="8.0.1">
+                <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="479.26" average="487.84"
+                  above_threshold="false" />
+        </platform>        <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="548.47" average="554.89"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6 (rev4)">
+          <result type="ts" baseline="637.58" average="645.58"
+                  above_threshold="false" />
+        </platform></application>      <application name="fx" version="4.0.1">
+                <platform name="MacOSX" version="10.5.8">
+          <result type="ts" baseline="687.21" average="744.16"
+                  above_threshold="false" />
+        </platform>        <platform name="WINNT" version="5.1">
+          <result type="ts" baseline="409.26" average="439.42"
+                  above_threshold="false" />
+        </platform></application>      <application name="fx" version="5.0">
+                <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="506.0" average="508.21"
+                  above_threshold="false" />
+        </platform>        <platform name="WINNT" version="5.1">
+          <result type="ts" baseline="388.11" average="384.74"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.5.8">
+          <result type="ts" baseline="679.89" average="676.84"
+                  above_threshold="false" />
+        </platform>        <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="522.0" average="513.0"
+                  above_threshold="false" />
+        </platform></application>      <application name="fx" version="6.0.2">
+                <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="476.21" average="485.89"
+                  above_threshold="false" />
+        </platform>        <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="519.79" average="521.16"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6.2">
+          <result type="ts" baseline="654.42" average="630.11"
+                  above_threshold="false" />
+        </platform></application>      <application name="fx" version="7.0.1">
+                <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="547.16" average="547.32"
+                  above_threshold="false" />
+        </platform>        <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="479.68" average="476.53"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6.2 (rev3)">
+          <result type="ts" baseline="667.37" average="653.47"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6.2">
+          <result type="ts" baseline="671.16" average="652.26"
+                  above_threshold="false" />
+        </platform></application>      <application name="fx" version="8.0">
+                <platform name="MacOSX" version="10.6 (rev4)">
+          <result type="ts" baseline="624.84" average="638.26"
+                  above_threshold="false" />
+        </platform>        <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="541.58" average="551.16"
+                  above_threshold="false" />
+        </platform>        <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="477.95" average="475.16"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6.2 (rev3)">
+          <result type="ts" baseline="657.21" average="656.11"
+                  above_threshold="false" />
+        </platform></application></performance>
+    </addon>
+  <addon id="383">
+  <name>AutoCopy</name>
+  <type id="1">Extension</type>
+  <guid>{0FED7D55-65D4-47b6-A6DE-9A4ADB55355F}</guid>
+  <slug>autocopy</slug>
+  <version>1.0.8</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="10213999">
+      <name>Autocopy</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/Autocopy/?src=api</link>
+    </author><author id="229">
+      <name>Michael Lidman</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/michael-lidman/?src=api</link>
+    </author>      </authors>
+  <summary>Select text and it&#39;s automatically copied to the clipboard. Also pastes on middle click.</summary>
+  <description>Select text and it&#39;s automatically copied to the clipboard. Also pastes on middle click.</description><license>
+    <name>GNU General Public License, version 3.0</name>
+    <url>http://www.gnu.org/licenses/gpl-3.0.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/0/383-64.png?modified=1377187841</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/0/383-32.png?modified=1377187841</icon>
+  <compatible_applications><application>
+      <name>Thunderbird</name>
+      <application_id>18</application_id>
+      <min_version>1.0</min_version>
+      <max_version>18.*</max_version>
+      <appID>{3550f703-e582-4d05-9a08-453d09bdfdc6}</appID>
+    </application><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>1.0</min_version>
+      <max_version>26.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="" width="633" height="460">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/110/110767.png?src=api&amp;modified=1376301687
+      </full>
+      <thumbnail type="" width="200" height="145">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/110/110767.png?src=api&amp;modified=1376301687
+      </thumbnail></preview><preview position="1">
+      <full type="" width="531" height="330">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/110/110768.png?src=api&amp;modified=1376301687
+      </full>
+      <thumbnail type="" width="200" height="124">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/110/110768.png?src=api&amp;modified=1376301687
+      </thumbnail></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/autocopy/?src=api</learnmore><install hash="sha256:2696fc2440a7457304478431c3fcd40874dbd11f748be28d3a3594a2080a744b"
+    os="ALL"
+    size="87673">https://addons.mozilla.org/firefox/downloads/file/185464/autocopy-1.0.8-tb+fx.xpi?src=api</install>
+  <developer_comments></developer_comments>
+    <reviews num="486">
+      https://addons.mozilla.org/en-US/firefox/addon/autocopy/reviews/?src=api
+    </reviews>
+    <total_downloads>1477457</total_downloads>
+    <weekly_downloads>737</weekly_downloads>
+    <daily_users>40319</daily_users>
+    <created epoch="1101449741">
+      2004-11-26T06:15:41Z
+    </created>
+    <last_updated epoch="1357344422">
+      2013-01-05T00:07:02Z
+    </last_updated>
+    <homepage></homepage>
+    <support></support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="4775">
+  <name>Autofill Forms</name>
+  <type id="1">Extension</type>
+  <guid>autofillForms@blueimp.net</guid>
+  <slug>autofill-forms</slug>
+  <version>0.9.9.0</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="100849">
+      <name>Sebastian Tschan</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/sebastian-tschan/?src=api</link>
+    </author><author id="5456119">
+      <name>Egor Zindy</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/egor_zindy/?src=api</link>
+    </author>      </authors>
+  <summary>Autofill Forms enables you to fill out web forms with one click.</summary>
+  <description>Autofill Features:
+    * Easy configuration with a simple interface.
+    * Fills out web forms with one click or a keyboard shortcut.
+    * Input fields not automatically matched can be filled out via the context menu.
+    * Features a completely customizable ruleset to determine the input for each form element.
+    * Provides a simple rule editor to define custom rules.
+    * Advanced users can customize the ruleset using JavaScript regular expressions.
+    * Works with input fields, textareas, selections, checkboxes, radio buttons and any valid form fields.
+    * Allows to use multiline input with line break tags.
+    * Allows dynamically created input data using special dynamic tags.
+    * Profiles can be used to switch betweeen several sets of rules.
+    * Possibility to define site specific profiles and rules.
+    * Automatically selects the best matching profile based on the assigned site.
+    * Possibility to define a global profile.
+    * Profiles can be exported and imported.
+    * Provides the possibility to define alternatives inside a profile.
+    * Allows to add new rules or complete forms as profiles via the context menu of form fields.
+    * Can be used with a toolbar button, a statusbar icon, a keyboard shortcut or via the context menu.
+    * Completely customizable interface (buttons, icons and menus can be enabled/disabled).
+    * Provides customizable keyboard shortcuts
+    * Only active when filling out forms so it doesn&#39;t consume any system resources while surfing.
+    * Provides secure encryption for the stored form data using Firefox Master Password.
+    * Integrates with the Secure Login add-on.</description><license>
+    <name>GNU General Public License, version 3.0</name>
+    <url>http://www.gnu.org/licenses/gpl-3.0.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/4/4775-64.png?modified=1383915490</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/4/4775-32.png?modified=1383915490</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>17.0</min_version>
+      <max_version>26.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="1">
+      <full type="image/png" width="674" height="525">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/22/22636.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="192" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/22/22636.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Autofill Forms</caption></preview></previews><rating>3</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/autofill-forms/?src=api</learnmore><install hash="sha256:d02b8454be8654e29eec2846ea77748102f5c5606baa39d5fb4504aef76c742b"
+    os="ALL"
+    size="149045">https://addons.mozilla.org/firefox/downloads/file/180210/autofill_forms-0.9.9.0-fx.xpi?src=api</install>
+  <developer_comments>This add-on has been created and maintained until 2008 by &lt;a href=&#34;http://outgoing.mozilla.org/v1/0df314d676b9f627e5562ecf395c5c3f95b403b91cfe2d0a7890dd3ea5a929b8/https%3A//blueimp.net/&#34; rel=&#34;nofollow&#34;&gt;Sebastian Tschan&lt;/a&gt;.
+Since then is has been maintained, but not developed any further, by the company Abine.
+It is now (2013) considered abandonware until an enthusiastic developer will take over.
+If you are such a developer and are really interested, please contact &lt;a href=&#34;http://outgoing.mozilla.org/v1/0df314d676b9f627e5562ecf395c5c3f95b403b91cfe2d0a7890dd3ea5a929b8/https%3A//blueimp.net/&#34; rel=&#34;nofollow&#34;&gt;Sebastian Tschan&lt;/a&gt;.</developer_comments>
+    <reviews num="337">
+      https://addons.mozilla.org/en-US/firefox/addon/autofill-forms/reviews/?src=api
+    </reviews>
+    <total_downloads>2329023</total_downloads>
+    <weekly_downloads>3608</weekly_downloads>
+    <daily_users>89453</daily_users>
+    <created epoch="1175979418">
+      2007-04-07T20:56:58Z
+    </created>
+    <last_updated epoch="1354296754">
+      2012-11-30T17:32:34Z
+    </last_updated>
+    <homepage>https://blueimp.net</homepage>
+    <support></support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="262804">
+  <name>Autofill</name>
+  <type id="1">Extension</type>
+  <guid>firefox-autofill@googlegroups.com</guid>
+  <slug>autofill-262804</slug>
+  <version>3.6</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="5550677">
+      <name>thdoan</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/thdoan/?src=api</link>
+    </author>      </authors>
+  <summary>Autofill is a small but powerful add-on that serves one purpose: fill form fields automatically on page load. It is for people who just want a straightforward form filler without all the bells and whistles.</summary>
+  <description>&lt;b&gt;Features:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;i&gt;Set and forget&lt;/i&gt; – fill out forms in ZERO clicks! Autofill executes without any required interaction from the user if a web page contains form fields that match one or more autofill rules&lt;/li&gt;&lt;li&gt;&lt;i&gt;Ultimate control&lt;/i&gt; – autofill text input fields, textarea fields, password fields, hidden fields, and even WYSIWYG edit boxes (rich text editors); autoselect menus and listboxes; autocheck checkboxes and radio buttons&lt;/li&gt;&lt;li&gt;&lt;i&gt;Form fields wizard&lt;/i&gt; – use the wizard to automatically generate autofill rules for you without having to look at the source code&lt;/li&gt;&lt;li&gt;&lt;i&gt;Easy to manage&lt;/i&gt; – create profiles to better organize your autofill rules&lt;/li&gt;&lt;li&gt;&lt;i&gt;Quick access&lt;/i&gt; – execute all autofill rules in a profile and open the Options window through the right-click context menu&lt;/li&gt;&lt;li&gt;&lt;i&gt;Regular Expressions&lt;/i&gt; – use powerful text matching patterns to identify fields to autofill&lt;/li&gt;&lt;li&gt;&lt;i&gt;Variables&lt;/i&gt; – use special variables to output random words (text spinner), numbers, and alphanumeric characters&lt;/li&gt;&lt;li&gt;&lt;i&gt;Site filtering&lt;/i&gt; – restrict Autofill on a per-site basis&lt;/li&gt;&lt;li&gt;&lt;i&gt;Exceptions&lt;/i&gt; – specify websites to exclude from Autofill&lt;/li&gt;&lt;li&gt;&lt;i&gt;Import/Export&lt;/i&gt; – transfer your settings to another computer or to the Autofill extension for Google Chrome&lt;/li&gt;&lt;li&gt;&lt;i&gt;Keyboard shortcuts&lt;/i&gt; – use the mouse or the keyboard for improved accessibility&lt;/li&gt;&lt;li&gt;&lt;i&gt;Fully localized&lt;/i&gt; – easily translate it into your native language (please contact the developer if you would like to contribute a translation)&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;b&gt;» &lt;a href=&#34;http://outgoing.mozilla.org/v1/626a258a21f1538b9051f9b3cf86f8df1b64e72ba2bd7fb3c2ea2ac4ee34443b/http%3A//www.youtube.com/watch%3Fv=0_50PjfRqUE&#34; rel=&#34;nofollow&#34;&gt;View the Demo of adding rules using the Wizard&lt;/a&gt;&lt;/b&gt;&lt;/ul&gt;&lt;ul&gt;&lt;b&gt;» &lt;a href=&#34;http://outgoing.mozilla.org/v1/d109683f1cfb6a66eb1c17e4babf9b7a089584e795d5f650f3b2d23ca5b155a3/http%3A//www.youtube.com/watch%3Fv=laabxmw4Avk&#34; rel=&#34;nofollow&#34;&gt;View the Demo of adding a rule manually&lt;/a&gt;&lt;/b&gt;&lt;/ul&gt;</description><license>
+    <name>GNU General Public License, version 3.0</name>
+    <url>http://www.gnu.org/licenses/gpl-3.0.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/262/262804-64.png?modified=1361502689</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/262/262804-32.png?modified=1361502689</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>3.5</min_version>
+      <max_version>28.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="" width="655" height="491">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/56/56127.png?src=api&amp;modified=1361446344
+      </full>
+      <thumbnail type="" width="200" height="149">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/56/56127.png?src=api&amp;modified=1361446344
+      </thumbnail><caption>Form Fields preferences panel</caption></preview><preview position="1">
+      <full type="" width="655" height="491">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/56/56128.png?src=api&amp;modified=1361446344
+      </full>
+      <thumbnail type="" width="200" height="149">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/56/56128.png?src=api&amp;modified=1361446344
+      </thumbnail><caption>Exceptions preferences panel</caption></preview><preview position="2">
+      <full type="" width="655" height="491">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/57/57605.png?src=api&amp;modified=1361446344
+      </full>
+      <thumbnail type="" width="200" height="149">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/57/57605.png?src=api&amp;modified=1361446344
+      </thumbnail><caption>Other Stuff preferences panel</caption></preview><preview position="3">
+      <full type="" width="655" height="491">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/56/56130.png?src=api&amp;modified=1361446344
+      </full>
+      <thumbnail type="" width="200" height="149">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/56/56130.png?src=api&amp;modified=1361446344
+      </thumbnail><caption>Support preferences panel</caption></preview><preview position="4">
+      <full type="" width="397" height="315">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/56/56131.png?src=api&amp;modified=1361446344
+      </full>
+      <thumbnail type="" width="189" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/56/56131.png?src=api&amp;modified=1361446344
+      </thumbnail><caption>Form Fields Wizard</caption></preview><preview position="5">
+      <full type="" width="685" height="440">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/56/56132.png?src=api&amp;modified=1361446344
+      </full>
+      <thumbnail type="" width="199" height="128">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/56/56132.png?src=api&amp;modified=1361446344
+      </thumbnail><caption>Context menu</caption></preview></previews><rating>3</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/autofill-262804/?src=api</learnmore><install hash="sha256:edcc56aa4b0e24fb057b7685455a5e5523d3aeb8a2d8457397c86d7505324200"
+    os="ALL"
+    size="67503">https://addons.mozilla.org/firefox/downloads/file/193974/autofill-3.6-fx.xpi?src=api</install>
+  <developer_comments>I have used a good number of form fillers over the years, including both browser extensions and stand-alone applications, but they still required you to select from a menu to initiate the autofill. Moreover, I found that the vast majority of them were either too primitive or just overkill for me. I was never able to find a tool that struck a balance between the two and did exactly what I wanted, which led me on the adventurous road to developing Autofill. Even if you&#39;re happy with your current form filler, you may still want to install this add-on if you want even more convenience (one less click), automation (autofills / autoselects / autochecks), and power (supports variables and RegExp pattern-matching) at your fingertips. Autofill is partly inspired by the LastPass online password manager&#39;s &#34;Custom fields&#34; tab.
+
+After installation, go to the Autofill Options panel (Tools menu / Add-ons / Extensions) to define form fields to autofill. Click on the Help button for a description of each setting. Please submit bug reports, suggestions, feature requests, and general feedback at the official Autofill support page:
+
+&lt;a href=&#34;http://outgoing.mozilla.org/v1/b573c286af2646a70dddc599435608e50b8241971648498c8c65a601884f6192/http%3A//groups.google.com/group/firefox-autofill&#34; rel=&#34;nofollow&#34;&gt;http://groups.google.com/group/firefox-autofill&lt;/a&gt;
+
+Also feel free to leave a mini review here. Happy autofilling!
+
+&lt;b&gt;Privacy &amp;amp; Security Disclaimer:&lt;/b&gt;
+
+Autofill does not, has never, and will never transmit any data over the internet. All data remains on your local hard disk drive at all times. However, the data saved by this extension is NOT encrypted, so any data you save remains in the clear, although it will remain on your hard drive and only someone who knows where to look and has physical access to your hard drive would be able to access it. Client-side AES encryption will be added in the future so that even if you lose your computer, you can be sure the thieves won&#39;t be able to do anything with the data saved by Autofill.</developer_comments>
+    <reviews num="33">
+      https://addons.mozilla.org/en-US/firefox/addon/autofill-262804/reviews/?src=api
+    </reviews>
+    <total_downloads>203796</total_downloads>
+    <weekly_downloads>1232</weekly_downloads>
+    <daily_users>15523</daily_users>
+    <created epoch="1292064737">
+      2010-12-11T10:52:17Z
+    </created>
+    <last_updated epoch="1363729854">
+      2013-03-19T21:50:54Z
+    </last_updated>
+    <homepage>http://www.tohodo.com/autofill/help-firefox.html</homepage>
+    <support>http://groups.google.com/group/firefox-autofill</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="203494">
+  <name>Firebug Autocompleter</name>
+  <type id="1">Extension</type>
+  <guid>{9aad3da6-6c46-4ef0-9109-6df5eaaf597c}</guid>
+  <slug>firebug-autocompleter</slug>
+  <version>1.4.1</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="1548926">
+      <name>yamapikarya</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/yamapikarya/?src=api</link>
+    </author>      </authors>
+  <summary>Firebug command line autocomplete.</summary>
+  <description></description><license>
+    <name>Custom License</name>
+    <url>http://www.mozilla.org/MPL/MPL-1.1.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/203/203494-64.png?modified=1331671013</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/203/203494-32.png?modified=1331671013</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>3.6</min_version>
+      <max_version>18.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="image/png" width="351" height="327">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/47/47577.png?src=api&amp;modified=1331644035
+      </full>
+      <thumbnail type="image/png" width="161" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/47/47577.png?src=api&amp;modified=1331644035
+      </thumbnail></preview><preview position="1">
+      <full type="image/png" width="442" height="339">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/47/47578.png?src=api&amp;modified=1331644035
+      </full>
+      <thumbnail type="image/png" width="195" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/47/47578.png?src=api&amp;modified=1331644035
+      </thumbnail></preview><preview position="2">
+      <full type="image/png" width="341" height="249">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/47/47579.png?src=api&amp;modified=1331644035
+      </full>
+      <thumbnail type="image/png" width="200" height="146">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/47/47579.png?src=api&amp;modified=1331644035
+      </thumbnail></preview><preview position="3">
+      <full type="image/png" width="432" height="501">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/47/47580.png?src=api&amp;modified=1331644035
+      </full>
+      <thumbnail type="image/png" width="129" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/47/47580.png?src=api&amp;modified=1331644035
+      </thumbnail></preview><preview position="4">
+      <full type="image/png" width="430" height="498">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/48/48430.png?src=api&amp;modified=1331644035
+      </full>
+      <thumbnail type="image/png" width="129" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/48/48430.png?src=api&amp;modified=1331644035
+      </thumbnail></preview><preview position="5">
+      <full type="image/png" width="429" height="494">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/48/48431.png?src=api&amp;modified=1331644035
+      </full>
+      <thumbnail type="image/png" width="130" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/48/48431.png?src=api&amp;modified=1331644035
+      </thumbnail></preview><preview position="6">
+      <full type="image/png" width="322" height="500">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/51/51657.png?src=api&amp;modified=1331644035
+      </full>
+      <thumbnail type="image/png" width="96" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/51/51657.png?src=api&amp;modified=1331644035
+      </thumbnail></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/firebug-autocompleter/?src=api</learnmore><install hash="sha256:370f4de83a3e82c40c272e0c43b324110220b630676e0fad3a40afaf57ee06f1"
+    os="ALL"
+    size="338733">https://addons.mozilla.org/firefox/downloads/file/178580/firebug_autocompleter-1.4.1-fx.xpi?src=api</install>
+  <developer_comments></developer_comments>
+    <reviews num="24">
+      https://addons.mozilla.org/en-US/firefox/addon/firebug-autocompleter/reviews/?src=api
+    </reviews>
+    <total_downloads>447775</total_downloads>
+    <weekly_downloads>2495</weekly_downloads>
+    <daily_users>32248</daily_users>
+    <created epoch="1279900007">
+      2010-07-23T15:46:47Z
+    </created>
+    <last_updated epoch="1353480782">
+      2012-11-21T06:53:02Z
+    </last_updated>
+    <homepage></homepage>
+    <support></support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="205592">
+  <name>autotranslator</name>
+  <type id="1">Extension</type>
+  <guid>autotranslator@kobayashi.ch</guid>
+  <slug>autotranslator</slug>
+  <version>1.0.9.20110510</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="1478413">
+      <name>kobashi</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/kobashi/?src=api</link>
+    </author>      </authors>
+  <summary>指定言語を自動的にGoogle翻訳で翻訳して表示します。</summary>
+  <description>Google翻訳を用いて、自動的にページを翻訳します。
+いちいち翻訳サイトを起動して翻訳する必要がないので、かなりお手軽です。
+具体的な動作としては、
+
+・サイトを開く
+・HTMLタグのlang属性を確認する。
+・指定のlang属性であれば、Google翻訳にて自動的に翻訳して表示する。
+　指定以外のlang属性、および、属性が設定されていない場合には、そのまま表示する。
+
+というものです。
+初期設定では日本語以外の言語は全て自動翻訳対象にしていますが、日本語と英語程度であればそのまま表示、その他の言語については自動翻訳とするのが使いやすいかもしれません。
+
+ただ、lang属性が指定されているページがそんなに多くないのでもしかしたらそんなにたくさん動いてくれないかもしれません。
+
+要望については、レビューあたりに書いていただければと思います。
+少しずつではありますが、改良していきたいと思います。
+
+*2011/4/28*
+下記の機能を追加したものを作成しました。
+・CTRL-ALT-Tを押すと手動でページの翻訳ができる。
+・文字列を選択してそこだけ翻訳することができる。(キーワード翻訳?)
+
+私のプログラミングが下手なのでレビューワーの方には本当にお世話になりっぱなしです。
+実際にレビュープロセス完了するまで時間かかるかもしれませんが、お待ちください。
+
+*2011/05/17*
+一応ツールバー上にアイコンを付け加えました。
+アイコンがダサいのは、私の絵心がないからです。ごめんなさい。</description><license>
+    <name>Custom License</name>
+    <url>http://www.mozilla.org/MPL/MPL-1.1.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/205/205592-64.png?modified=1315529637</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/205/205592-32.png?modified=1315529637</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>3.0</min_version>
+      <max_version>27.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/autotranslator/?src=api</learnmore><install hash="sha256:730d479c363fab370b7b3ef8f57417c02b77e194614cb52d62483fa398357d29"
+    os="ALL"
+    size="11264">https://addons.mozilla.org/firefox/downloads/file/120565/autotranslator-1.0.9.20110510-fx.xpi?src=api</install>
+  <contribution_data>
+      <link>https://addons.mozilla.org/en-US/firefox/addon/autotranslator/contribute/?src=api</link>
+                <suggested_amount currency="USD" amount="0.99">
+            $0.99
+          </suggested_amount>
+            <meet_developers>
+        https://addons.mozilla.org/en-US/firefox/addon/autotranslator/developers?src=api
+      </meet_developers>
+    </contribution_data><developer_comments>右クリックの翻訳モードは中止しました。
+そのかわりショートカットキーを取り付けました。
+
+CTRL-ALT-T
+
+で手動変換します。
+Tは、translateのTの意味で覚えてください。</developer_comments>
+    <reviews num="6">
+      https://addons.mozilla.org/en-US/firefox/addon/autotranslator/reviews/?src=api
+    </reviews>
+    <total_downloads>46982</total_downloads>
+    <weekly_downloads>213</weekly_downloads>
+    <daily_users>4942</daily_users>
+    <created epoch="1280301902">
+      2010-07-28T07:25:02Z
+    </created>
+    <last_updated epoch="1308535923">
+      2011-06-20T02:12:03Z
+    </last_updated>
+    <homepage>http://www.kobayashi.ch</homepage>
+    <support></support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="337159">
+  <name>AutoCopy 2</name>
+  <type id="1">Extension</type>
+  <guid>autocopy2@teo.pl</guid>
+  <slug>autocopy-2</slug>
+  <version>1.2.8.4</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="54957">
+      <name>Leszek Życzkowski</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/teo951/?src=api</link>
+    </author>      </authors>
+  <summary>Copies selected text to the clipboard automatically.</summary>
+  <description>Just select text and will be copied automatically to clipboard. After copied you can:
+&lt;ul&gt;&lt;li&gt; middle click paste to textboxes on the page&lt;/li&gt;&lt;li&gt;From AutoCopy context menu:&lt;/li&gt;&lt;li&gt;paste to location bar&lt;/li&gt;&lt;li&gt;paste to searchbar&lt;/li&gt;&lt;li&gt;search for using Google&lt;/li&gt;&lt;li&gt;open lint in the new tab&lt;/li&gt;&lt;li&gt;and more…&lt;/li&gt;&lt;/ul&gt;From options dialog window you can set many preferences. Install extension and try all. Feature &lt;strong&gt;Copy as Plain Text&lt;/strong&gt; working properly with &lt;strong&gt;Copy Plain Text 2&lt;/strong&gt; extension.</description><license>
+    <name>GNU General Public License, version 3.0</name>
+    <url>http://www.gnu.org/licenses/gpl-3.0.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/337/337159-64.png?modified=1378142426</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/337/337159-32.png?modified=1378142426</icon>
+  <compatible_applications><application>
+      <name>SeaMonkey</name>
+      <application_id>59</application_id>
+      <min_version>2.0</min_version>
+      <max_version>2.27.*</max_version>
+      <appID>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</appID>
+    </application><application>
+      <name>Thunderbird</name>
+      <application_id>18</application_id>
+      <min_version>2.0</min_version>
+      <max_version>28.*</max_version>
+      <appID>{3550f703-e582-4d05-9a08-453d09bdfdc6}</appID>
+    </application><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>3.0</min_version>
+      <max_version>28.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="" width="576" height="354">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/62/62448.png?src=api&amp;modified=1314492722
+      </full>
+      <thumbnail type="" width="200" height="122">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/62/62448.png?src=api&amp;modified=1314492722
+      </thumbnail><caption>AutoCopy in the main context menu</caption></preview><preview position="1">
+      <full type="" width="331" height="226">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/62/62449.png?src=api&amp;modified=1314492722
+      </full>
+      <thumbnail type="" width="200" height="136">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/62/62449.png?src=api&amp;modified=1314492722
+      </thumbnail><caption>AutoCopy own  context menu</caption></preview><preview position="2">
+      <full type="" width="382" height="415">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/62/62450.png?src=api&amp;modified=1314492722
+      </full>
+      <thumbnail type="" width="138" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/62/62450.png?src=api&amp;modified=1314492722
+      </thumbnail><caption>AutoCopy options window</caption></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/autocopy-2/?src=api</learnmore><install hash="sha256:61913a61c757b976caf8ffafa3a07c731f75ba53dfa468d49a500bdeb69f005c"
+    os="ALL"
+    size="121696">https://addons.mozilla.org/firefox/downloads/file/226283/autocopy_2-1.2.8.4-sm+tb+fx.xpi?src=api</install>
+  <contribution_data>
+      <link>https://addons.mozilla.org/en-US/firefox/addon/autocopy-2/contribute/?src=api</link>
+                <suggested_amount currency="USD" amount="3.00">
+            $3.00
+          </suggested_amount>
+            <meet_developers>
+        https://addons.mozilla.org/en-US/firefox/addon/autocopy-2/developers?src=api
+      </meet_developers>
+    </contribution_data><developer_comments></developer_comments>
+    <reviews num="52">
+      https://addons.mozilla.org/en-US/firefox/addon/autocopy-2/reviews/?src=api
+    </reviews>
+    <total_downloads>125604</total_downloads>
+    <weekly_downloads>592</weekly_downloads>
+    <daily_users>15390</daily_users>
+    <created epoch="1314488935">
+      2011-08-27T23:48:55Z
+    </created>
+    <last_updated epoch="1378549372">
+      2013-09-07T10:22:52Z
+    </last_updated>
+    <homepage></homepage>
+    <support></support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="326746">
+  <name>Zotero autoexporting</name>
+  <type id="1">Extension</type>
+  <guid>zotero-autoexport-bib@rokdd</guid>
+  <slug>zotero-bib-autoexport</slug>
+  <version>1.1.5</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="32101">
+      <name>rokdd</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/rokdd/?src=api</link>
+    </author>      </authors>
+  <summary>Exports library of Zotero automatically to specific format like bib, RDF etc.</summary>
+  <description>This addon exports from Zotero (book managment for firefox) to formats which are supported by Zotero automatically. The following features are integrated:
+
+&lt;ul&gt;&lt;li&gt;trigger export by a timer for example every 120 minutes&lt;/li&gt;&lt;li&gt;trigger the export by changes in your zotero database&lt;/li&gt;&lt;li&gt;setup the format options (and the translator)&lt;/li&gt;&lt;li&gt;splitting exported files into collections and subcollections [upon 1.0.6]&lt;/li&gt;&lt;li&gt;postprocessing with an external script like a batch file for ftp upload&lt;/li&gt;&lt;li&gt;export only certain collections - good if you have many items [upon 1.1.2]&lt;/li&gt;&lt;li&gt;export saved searches and group collections as batch to file  [upon 1.1.2]&lt;/li&gt;&lt;/ul&gt;
+If you want to send improvements or bugs, you have been warned that this addon is &#39;as-is&#39;. The roadmap and known issues  are at &lt;a href=&#34;http://outgoing.mozilla.org/v1/f2d010433496f83533e5b45519bd928382985fc2f3e58acd4f9740fd798899af/http%3A//rokdd.de/permanent%3Azotero-autoexporting&#34; rel=&#34;nofollow&#34;&gt;my addon homepage&lt;/a&gt;  and contact me there if you cannot find your suggestion! For checking and improving source code have a look at github, the url you find at &lt;a href=&#34;http://outgoing.mozilla.org/v1/f2d010433496f83533e5b45519bd928382985fc2f3e58acd4f9740fd798899af/http%3A//rokdd.de/permanent%3Azotero-autoexporting&#34; rel=&#34;nofollow&#34;&gt;central script page&lt;/a&gt;
+
+&lt;strong&gt;Update issues:&lt;/strong&gt;: Mozilla is approving every version for quality issues. Zotero itself is depend to this addon and it is hard for the team to test and need several weeks. Starting from version 1.1.2 major new features are delivered automatically via my own server over normal update process of your Firefox.</description><license>
+    <name>GNU General Public License, version 3.0</name>
+    <url>http://www.gnu.org/licenses/gpl-3.0.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/326/326746-64.png?modified=1376504431</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/326/326746-32.png?modified=1376504431</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>3.0</min_version>
+      <max_version>28.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="" width="700" height="402">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/69/69660.png?src=api&amp;modified=1354919479
+      </full>
+      <thumbnail type="" width="200" height="115">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/69/69660.png?src=api&amp;modified=1354919479
+      </thumbnail><caption>Example of preference (version 0.9)</caption></preview><preview position="1">
+      <full type="" width="700" height="311">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/60/60533.png?src=api&amp;modified=1354919479
+      </full>
+      <thumbnail type="" width="200" height="88">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/60/60533.png?src=api&amp;modified=1354919479
+      </thumbnail><caption>Example of preference (version 0.5)</caption></preview><preview position="2">
+      <full type="" width="500" height="334">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/83/83968.png?src=api&amp;modified=1354919479
+      </full>
+      <thumbnail type="" width="200" height="134">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/83/83968.png?src=api&amp;modified=1354919479
+      </thumbnail><caption>Example of preference (version 1.0.3)</caption></preview></previews><rating>5</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/zotero-bib-autoexport/?src=api</learnmore><install hash="sha256:1862db2113cb02810aa8592b7d7cc6334b24e1f14c16fee9972f270939a26e62"
+    os="ALL"
+    size="47439">https://addons.mozilla.org/firefox/downloads/file/238384/zotero_autoexport-1.1.5-fx.xpi?src=api</install>
+  <install hash="sha256:ffb1f2794428457701c03a93c30975815b952b904e70fb5e3d7bc38679d83749" os=""
+             size="9216"
+             status="Beta">
+      https://addons.mozilla.org/firefox/downloads/file/158073/zotero_autoexport-1.0.b-fx.xpi?src=api
+    </install>
+    <contribution_data>
+      <link>https://addons.mozilla.org/en-US/firefox/addon/zotero-bib-autoexport/contribute/?src=api</link>
+                <suggested_amount currency="USD" amount="6.99">
+            $6.99
+          </suggested_amount>
+            <meet_developers>
+        https://addons.mozilla.org/en-US/firefox/addon/zotero-bib-autoexport/developers?src=api
+      </meet_developers>
+    </contribution_data><developer_comments>&lt;ul&gt;&lt;li&gt;&lt;strong&gt;1.2.0&lt;/strong&gt; (beta)&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Export of attachments as files&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;strong&gt;1.1.5&lt;/strong&gt; (beta)&lt;/li&gt;&lt;ul&gt;&lt;/ul&gt;&lt;li&gt;&lt;strong&gt;1.1.0&lt;/strong&gt; (beta) &lt;i&gt;prerelease is downloadable at authors page&lt;/i&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;default directory is not set for file picker if old path is used..&lt;/li&gt;&lt;li&gt;Add updating via HTTPXMLRequest&lt;/li&gt;&lt;li&gt;multiple export directorys&lt;/li&gt;&lt;li&gt;Manual event releasing per cmd&lt;/li&gt;&lt;li&gt;UI: Structure more by event or file&amp;lt;br/&amp;gt;&lt;i&gt;12.02.13 16:02 - resolved now&lt;/i&gt;&lt;/li&gt;&lt;li&gt;Housekeeping of profiles to export&lt;/li&gt;&lt;li&gt;Create folder if not exists at export&lt;/li&gt;&lt;li&gt;Export collections to folder&lt;/li&gt;&lt;li&gt;Add option for filename formatting with variables&lt;/li&gt;&lt;li&gt;PrefHasUserValue does not return anything if pref not exists. Could stop working the init process&lt;/li&gt;&lt;li&gt;Collection managment with more options&lt;/li&gt;&lt;li&gt;Export saved searches to select only specific collections and items&lt;/li&gt;&lt;li&gt;Preference disabling menu or toolbar&lt;/li&gt;&lt;li&gt;Check whether zotero.autoexporting exists in toolbar.js&amp;lt;br/&amp;gt;&lt;i&gt;03.03.13 18:03 - resolved now&lt;/i&gt;&lt;/li&gt;&lt;li&gt;Zotero Standalone does not end export process..&amp;lt;br/&amp;gt;&lt;i&gt;03.03.13 18:03 - resolved now&lt;/i&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;strong&gt;1.0.9&lt;/strong&gt; (released 20.02.13) &lt;i&gt;release is downloadable at authors page&lt;/i&gt; Lot of improvements in the UI. To assure stability and functionality the roadmap will be changed: The introduce of profiles with multiple file formats will be moved from coming version 1.1.0 to the near future. Currently it doesnot look like it is so urgent feature. &lt;/li&gt;&lt;ul&gt;&lt;li&gt;UI: Structure more by event or file&lt;/li&gt;&lt;li&gt;Toolbarbutton UI: Install not only at first install also if version is too old&lt;/li&gt;&lt;li&gt;Menu item for faster manual execution of export&lt;/li&gt;&lt;li&gt;GetElementbyId etablish more stable for UI elements&lt;/li&gt;&lt;li&gt;Dialogue has an overflow and is to small&lt;/li&gt;&lt;li&gt;Introducing of tabs for an better overview&lt;/li&gt;&lt;li&gt;Button is not available at startup&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;strong&gt;1.0.8&lt;/strong&gt; (released 02.02.13) &lt;i&gt;release is downloadable at authors page&lt;/i&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Button is not properly setup after start&lt;/li&gt;&lt;li&gt;Toolbarbutton not found, so Exception thrown&lt;/li&gt;&lt;li&gt;Collection names in the filename by export might occur an error&lt;/li&gt;&lt;li&gt;Improved stability at export routine itself&lt;/li&gt;&lt;li&gt;Improved feedback of export whether a single file is written&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;strong&gt;1.0.7&lt;/strong&gt; (released 05.01.13) &lt;i&gt;release is downloadable at authors page&lt;/i&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Export changes with an cache or timeout&lt;/li&gt;&lt;li&gt;Visual feedback during export&lt;/li&gt;&lt;li&gt;Toolbar: Show status of addon and last export as tooltip&lt;/li&gt;&lt;li&gt;Toolbar: button is available to indicate state of export, hover to see the last export (installed per default into addon bar)&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;strong&gt;1.0.6&lt;/strong&gt; (released 21.12.12) &lt;i&gt;release is downloadable at authors page&lt;/i&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;minor bugfixes&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;strong&gt;1.0.5&lt;/strong&gt; (released 12.12.12) &lt;i&gt;release is downloadable at authors page&lt;/i&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Add export event when database is changed&lt;/li&gt;&lt;li&gt;Select the events to be triggered&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;strong&gt;1.0.3&lt;/strong&gt; (released 18.07.12) &lt;i&gt;release is downloadable at authors page&lt;/i&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;better check of validness of parameters&lt;/li&gt;&lt;li&gt;Manual test button&lt;/li&gt;&lt;li&gt;Add a ommand line option executed after export&lt;/li&gt;&lt;li&gt;possibility to autoexport collections in different files [thanks to Sebastien]&lt;/li&gt;&lt;li&gt;Detect whether Zotero exists or not&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;strong&gt;1.0&lt;/strong&gt; (released 27.06.12) &lt;i&gt;release is downloadable at authors page&lt;/i&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Display a multiline protocol&lt;/li&gt;&lt;li&gt;Preferences have leak&lt;/li&gt;&lt;li&gt;Support of Zotero Standalone&lt;/li&gt;&lt;li&gt;Choose format (=translator) to export automatically&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;</developer_comments>
+    <reviews num="7">
+      https://addons.mozilla.org/en-US/firefox/addon/zotero-bib-autoexport/reviews/?src=api
+    </reviews>
+    <total_downloads>57928</total_downloads>
+    <weekly_downloads>608</weekly_downloads>
+    <daily_users>8273</daily_users>
+    <created epoch="1309766381">
+      2011-07-04T07:59:41Z
+    </created>
+    <last_updated epoch="1389047197">
+      2014-01-06T22:26:37Z
+    </last_updated>
+    <homepage>http://rokdd.de/permanent:zotero-autoexporting</homepage>
+    <support>http://rokdd.de/permanent:zotero-autoexporting</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+    </searchresults>
